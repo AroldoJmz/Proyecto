@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preload" href="css/style.css" as="style">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Prueba</title>
+</head>
+<body>
+    <header>
+        <h1>Temas de Primer grado</h1>
+    </header>
+
+    <main>
+        <div class="ejercicios">
+            <section class="ejercicio">
+                <h2>Ejercicio 1</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officia nihil facere ducimus tempora suscipit, repudiandae consectetur odit perferendis, excepturi praesentium doloremque rem itaque, reprehenderit cumque iste sit vitae hic.
+                </p>
+            </section>
+
+            <section class="ejercicio">
+                <h2>Ejercicio 2</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi officia nihil facere ducimus tempora suscipit, repudiandae consectetur odit perferendis, excepturi praesentium doloremque rem itaque, reprehenderit cumque iste sit vitae hic.
+                </p>
+            </section>
+        </div>
+
+        <section>
+            <h2>Respuestas</h2>
+            
+            <form id="formulario" name="formulario" method="get">
+                <fieldset>
+
+                    <legend>Coloca tus respuestas a los ejercicios</legend>
+
+                    <div class="contenedor-campos">
+                        <div>
+                            <label>Nombre</label>
+                            <input id="usuario" name="nombre" class="input-text" type="text" placeholder="Escribe tu nombre" required>
+                        </div>
+
+                        <div>
+                            <label>Ejercicio 1</label>
+                            <input id="resp1" name="resp1" class="input-text" type="number" step="any" placeholder="Escribe tu respuesta" required>
+                        </div>
+
+                        <div>
+                            <label>Ejercicio 2</label>
+                            <input id="resp2" name="resp2" class="input-text" type="number" step="any" placeholder="Escribe tu respuesta" required>
+                        </div>
+                    </div>
+
+                    <div>
+                        <input id="btn" name="btn" class="boton" type="button" value="Mandar">
+                    </div> 
+
+                </fieldset>
+            </form>
+        </section>
+
+        <section>
+            <div class="pistas">
+                <div id="p1" class=" pistas pista1">
+                    <h2>Pista Respuesta 1</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis, rerum placeat natus accusamus consequuntur laudantium tempore inventore velit sintharum vel mollitia dolore? Totam quidem soluta molestias alias eaque!
+                    </p>
+                </div>
+
+                <div id="p2" class="pistas pista2">
+                    <h2>Pista Respuesta 2</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur perspiciatis, rerum placeat natus accusamus consequuntur laudantium tempore inventore velit sintharum vel mollitia dolore? Totam quidem soluta molestias alias eaque!
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- <script src="js/form.js"></script> -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/sweetAlert.js"></script>
+</body>
+</html>
